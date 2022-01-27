@@ -5,7 +5,7 @@ export default function Book({ isbn, title, author }) {
     <div>
       <h2>{title}</h2>
       <h3>{`${author.firstName} ${author.middleName} ${author.lastName}`}</h3>
-      <p>{isbn}</p>
+      <p>{`ISBN: ${isbn}`}</p>
     </div>
   );
 }
