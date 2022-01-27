@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import PolarItem from './PolarItem';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders PolarItem to screen with a flavor of "Cranberry Clementine"', () => {
+  render(<PolarItem flavor={'Cranberry Clementine'} />);
+  const flavor = screen.getByText('Cranberry Clementine');
+  expect(flavor).toBeInTheDocument();
 });
