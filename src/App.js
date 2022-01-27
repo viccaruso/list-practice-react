@@ -7,7 +7,10 @@ import PolarList from './PolarList';
 function App() {
   return (
     <div className="App">
-      <PolarList flavors={polarFlavors} />
+      <div>
+        <h1>Polar Flavors</h1>
+        <PolarList flavors={polarFlavors} />
+      </div>
     </div>
   );
 }
