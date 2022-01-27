@@ -6,7 +6,9 @@ export default function Pet({ name, type, favoriteToys, color }) {
       <h2>{name}</h2>
       <h3>{type}</h3>
       <p>{color}</p>
-      <p>{favoriteToys}</p>
+      {
+        favoriteToys.map((toy, i) => <p key={toy + i}>{toy}</p>)
+      }
     </div>
   );
 }
