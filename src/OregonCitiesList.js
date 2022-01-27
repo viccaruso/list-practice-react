@@ -1,9 +1,10 @@
 import React from 'react';
+import OregonCity from './OregonCity';
 
-export default function OregonCitiesList() {
+export default function OregonCitiesList({ cities }) {
   return (
     <div>
-      This is a container to hold a list of oregon cities
+      { cities.map((city, i) => <OregonCity key={city.name + i} name={city.name} population={city.population} size={city.size} />) }
     </div>
   );
 }
