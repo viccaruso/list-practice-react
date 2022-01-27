@@ -1,6 +1,7 @@
 .App {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   text-align: center;
 }
 
@@ -37,4 +38,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.indigo {
+  background-color: indigo;
+}
+.violet {
+  background-color: violet;
 }

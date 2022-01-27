@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function PolarItem({ flavor }) {
+export default function PolarItem({ flavor, color }) {
   return (
-    <div className={`polar-flavor ${flavor}`}>
-      <p>{flavor}</p>
+    <div className={`polar-flavor ${color}`}>
+      <span>{flavor}</span>
     </div>
   );
 }
