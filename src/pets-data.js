@@ -24,7 +24,8 @@ export const pets = [
     type: 'Dog',
     favoriteToys: [
       'Kong',
-      'Chuck-it'
+      'Chuck-it',
+      'Bully stick'
     ],
     color: 'Brown & White'
   },

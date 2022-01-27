@@ -18,5 +18,6 @@ export const polarFlavors = [
   'Black Cherry',
   'Pomegranate',
   'Pink Apple & Lemon',
-  'Ginger Lime Mule'
+  'Ginger Lime Mule',
+  'Strawberry Lemonade'
 ];
