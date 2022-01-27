@@ -4,6 +4,8 @@ import { polarFlavors } from './polar-data';
 import PolarList from './PolarList';
 import OregonCitiesList from './OregonCitiesList';
 import { cities } from './cities-data';
+import PetList from './PetList';
+import { pets } from './pets-data';
 // import your arrays here
 
 function App() {
@@ -16,6 +18,10 @@ function App() {
       <div>
         <h1>Cities in Oregon</h1>
         <OregonCitiesList cities={cities} />
+      </div>
+      <div>
+        <h1>Pets</h1>
+        <PetList pets={pets} />
       </div>
     </div>
   );
