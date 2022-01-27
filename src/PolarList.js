@@ -1,9 +1,10 @@
 import React from 'react';
+import PolarItem from './PolarItem';
 
 export default function PolarList({ flavors }) {
   return (
     <div>
-      I am the PolarList
+      { flavors.map((flavor, i) => <PolarItem key={flavor + i} flavor={flavor} />) }
     </div>
   );
 }
